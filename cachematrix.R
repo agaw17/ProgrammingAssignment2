@@ -1,14 +1,15 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Functions may be used for inverse matrix calculation in fast way, 
+## as if an inverse matrix was once calculated it takes previosly calucates value form a cache
 
-## Write a short comment describing this function
+##  makes a special object - creaters a definitions for getting a matrix, setting a matrix, 
+## store inverse matrix and get inverse matrix
 
 makeCacheMatrix <- function(x = matrix()) {
 
 }
 
 
-## Write a short comment describing this function
+## gives an inverse matrix, either by calculating it or by getting from cache
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
